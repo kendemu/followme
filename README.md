@@ -26,10 +26,16 @@ Hardware Requirements
 
 How to start the software
 $roslaunch turtlebot_bringup minimal.launch
+
 $roslaunch turtlebot_bringup 3dsensor.launch
+
 $rosrun followme followme_node
+
 $rosrun followme distance_node
+
 configure what object to track with the followme_node GUI interface
 (you can choose the object to track using mouse selection)
+
 $rosrun followme trackme_node 
+
 Now the turtlebot is going to track you!
