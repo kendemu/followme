@@ -1,3 +1,24 @@
+## followme (indigo) - 0.0.1-0
+
+The packages in the `followme` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo followme` on `Thu, 02 Jul 2015 05:33:48 -0000`
+
+The `followme` package was released.
+
+Version of package(s) in repository `followme`:
+- upstream repository: https://github.com/kendemu/followme
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 Author:Kensei Demura(kendemu)
 
 This ros software can detect and track people, and can distinguish people.
