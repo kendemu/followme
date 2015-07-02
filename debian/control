@@ -1,0 +1,12 @@
+Source: ros-indigo-followme
+Section: misc
+Priority: extra
+Maintainer: kendemu <kendemu@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-geometry-msgs, ros-indigo-image-transport, ros-indigo-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-followme
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cv-bridge, ros-indigo-geometry-msgs, ros-indigo-image-transport, ros-indigo-sensor-msgs
+Description: The followme package
